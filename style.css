@@ -1,0 +1,146 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .board {
+      display:flex;
+/*       width: 250px;
+      height: 250px; */
+      width: 350px;
+      height: 350px;
+      flex-wrap: wrap;
+      user-select: none
+  }
+  
+  .cell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32%;
+      height: 33%;
+      font-size: 4em;
+  }
+
+    .blank {
+        color: #e3e3e3;
+    }
+
+.buttonDiv {
+    display: flex;
+    width: 20em;
+    justify-content: space-evenly;
+}
+
+.scoreBoard {
+    font-family: monospace;
+    background-color: lightgray;
+    width: 3em;
+}
+
+.menu {
+    position: relative;
+    right: 2em;
+    float:left;
+    height: 4em;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+#xScore {
+    float:left;
+}
+
+#oScore {
+    float:right;
+}
+/* .button {
+    border: 10em;
+} */
+  
+  #A300 {
+  /*     border: 1px solid red; */
+      border-right: 5px solid black;
+      border-bottom: 5px solid black;
+  }
+  
+  #B301 {
+  /*     border: 1px solid orange; */
+      border-bottom: 5px solid black;
+  }
+  
+  #C302 {
+  /*     border: 1px solid yellow; */
+      border-left: 5px solid black;
+      border-bottom: 5px solid black;
+  }
+  
+  #A210 {
+  /*     border: 1px solid green; */
+      border-right: 5px solid black;
+  }
+  
+  /* #B2 {
+      border: 5px solid black;
+  } */
+  
+  #C212 {
+  /*     border: 1px solid indigo; */
+      border-left: 5px solid black
+  }
+  
+  #A120 {
+  /*     border: 1px solid maroon; */
+      border-top: 5px solid black;
+      border-right: 5px solid black;
+  }
+  
+  #B121 {
+  /*     border: 1px solid brown; */
+      border-top: 5px solid black;
+  }
+  
+  #C122 {
+  /*     border: 1px solid gold; */
+      border-top: 5px solid black;
+      border-left: 5px solid black;
+  }
+  
+  #resetButton {
+    width: fit-content;
+  }
+
+#prevButton {
+    display:none;
+}
+
+#nextButton {
+    display:none;
+}
+
+/* #newGameButton {
+    position: fixed;
+    top:2px;
+    left:2px;
+} */
+
+#spanText {
+      text-align: center;
+/*       position: fixed;
+      top: 0px;
+      left: 0px; */
+      padding: .5em;
+      width: 500px;
+      height: 30px;
+      font-size: 2em;
+      user-select: none;
+  }
+
+/* #vsComp {
+    display: none;
+} */
